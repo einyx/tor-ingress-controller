@@ -1,0 +1,7 @@
+apiVersion: toringress.k8s.io/v1alpha1
+kind: Tor
+metadata:
+  name: example-tor
+spec:
+  deploymentName: example-tor
+  replicas: 1
